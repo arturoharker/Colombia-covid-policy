@@ -1,4 +1,4 @@
-#Codebook of Colombian subnational policies
+# Codebook of Colombian subnational policies
 ---
 *Index Methodology version 1.0*
 
@@ -11,7 +11,6 @@ This codebooks shows the process in which indices are built in four main types o
 - [H - health system policies](#health-system-policies)
 
 ---
-##Containment and closure policies{#heading- ids}
 ### Containment and closure policies
 
 | ID | Name | Description | Measurement | Coding |
