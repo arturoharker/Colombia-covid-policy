@@ -1,8 +1,11 @@
 #Codebook of Colombian subnational policies
 ---
 *Index Methodology version 1.0*
+
 *26 November 2020*
+
 This codebooks shows the process in which indices are built in four main types of measures:
+
 - [C - containment and closure policies](#containment-and-closure-policies)
 - [E - economic policies](#economic-policies)
 - [H - health system policies](#health-system-policies)
@@ -21,10 +24,13 @@ This codebooks shows the process in which indices are built in four main types o
 
 | ID | Name | Description | Measurement | Coding |
 | --- | --- | --- | --- | --- |
-||||||
-
+|E1|`E1_TransfersInKind` |Number of beneficiaries of the transfers in kind|Ratio|Beneficiaries over population total|
+|E2|`E2_MonetaryTransfers` |Number of beneficiaries of monetary transfers|Ratio|Beneficiaries over population total|
+|E3|`E3_FocalizedDiscount` |Measures if the tax discount is targeted or general|Binary|</br>0- For the general population </br>1- Targeted to certain people|
+|E4|`E4_AmountTransfered` |Budget transfers|COP|Amount of transfer made|
 ### Health system policies
 
 | ID | Name | Description | Measurement | Coding |
 | --- | --- | --- | --- | --- |
-||||||
+|S1|`S1_IntensityofTesting`|Number of tests given by the municipality|Ratio|Number of tests over population|
+|S2|`S2_HospitalCapacity`|Increase of hospital capacity, measured in hospital beds|Ratio|Number of new beds over number of pre-acquired beds|
