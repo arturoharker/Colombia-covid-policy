@@ -32,5 +32,5 @@ This codebooks shows the process in which indices are built in four main types o
 
 | ID | Name | Description | Measurement | Coding |
 | --- | --- | --- | --- | --- |
-|S1|`S1_IntensityofTesting`|Number of tests given by the municipality|Ratio|Number of tests over population|
-|S2|`S2_HospitalCapacity`|Increase of hospital capacity, measured in hospital beds|Ratio|Number of new beds over number of pre-acquired beds|
+|H1|`H1_IntensityofTesting`|Number of tests given by the municipality|Ratio|Number of tests over population|
+|H2|`H2_HospitalCapacity`|Increase of hospital capacity, measured in hospital beds|Ratio|Number of new beds over number of pre-acquired beds|
