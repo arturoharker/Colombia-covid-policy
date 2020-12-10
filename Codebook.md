@@ -26,7 +26,8 @@ This codebooks shows the process in which indices are built in four main types o
 |E1|`E1_TransfersInKind` |Number of beneficiaries of the transfers in kind|Ratio|Beneficiaries over population total|
 |E2|`E2_MonetaryTransfers` |Number of beneficiaries of monetary transfers|Ratio|Beneficiaries over population total|
 |E3|`E3_FocalizedDiscount` |Measures if the tax discount is targeted or general|Binary|</br>0- For the general population </br>1- Targeted to certain people|
-|E4|`E4_AmountTransfered` |Budget transfers|COP|Amount of transfer made|
+|E4|`E4_BudgetTransferedPC` |Budget transfers|COP per person|Amount of budget modification normalized by population of each municipality|
+|E5|`E5_AmountTransferedPC` |Money transferred per person|COP per person|Amount of money transferred normalized by population of each municipality|
 ### Health system policies
 
 | ID | Name | Description | Measurement | Coding |
