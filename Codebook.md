@@ -15,10 +15,13 @@ This codebooks shows the process in which indices are built in four main types o
 
 | ID | Name | Description | Measurement | Coding |
 | --- | --- | --- | --- | --- |
-| C1 | `C1_Circulation` | How strict are the circulation restrictions | Ordinal scale | 0 - no measures <br/>1 -	Only people with Symptoms <br/>2 - 	Public transport and/or tourist. Motorcycle restriction  <br/>3 -	Circulation restriction to 1 or more age groups <br/>4 -	Circulation restrictions are for everybody |
+| C1 | `C1_StayAtHome` | The application of measures that prevent citizenz to leave home. Measures are: aforo, events, Curfew, quarantine, distance, ley seca, restrictions to mobility | Continuous | <br/>0 -  0-	no measure applied. <br/>7 -	All the seven measures were applied |
 | C2 | `C2_Leave home` | Record the allowance to leave home | Ordinal scale | 0 - no measures <br/>1 -No quarantine with restrictions to purchase goods or scheduled to do exercise <br/>2 - Quarantine with restrictions to purchase goods and schedule to do exercise  <br/>3 -Quarantine with restrictions to purchase goods and no allowance to do exercise |
 | C3 | `C1_Quarantine` | How severe is the recorded quarantine | Ordinal scale | 0 - no measures <br/>1 -	Covid patients and people with sympthoms <br/>2 -Demographyc scoped quarantine  <br/>3 -Everybody is under quarantine |
-
+| C4 | `C4_Circulation` | How strict are the circulation restrictions | Ordinal scale | 0 - no measures <br/>1 -	Only people with Symptoms <br/>2 - 	Public transport and/or tourist. Motorcycle restriction  <br/>3 -	Circulation restriction to 1 or more age groups <br/>4 -	Circulation restrictions are for everybody |
+| C5 | `C5_PurchaseHours` | Hours restricted weekly to purchase goods | Continuous | 0 hours to 168 hours which is the total hours in a 7 days week |
+| C6 | `C6_CurfewRestriction` | Hours restricted weekly by the Curfew | Continuous | 0 hours to 168 hours which is the total hours in a 7 days week |
+| C7 | `C7_MobilityRestriction` | Hours restricted daily by the mobility restrictions | Continuous | 0 hours to 24 hours of the day |
 ### Economic policies
 
 | ID | Name | Description | Measurement | Coding |
