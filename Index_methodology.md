@@ -5,7 +5,7 @@
 | --- | ---: | --- | --- | --- | --- | --- | --- | --- |
 | Containment Index 1 |  |  |  |  | | | | | 
 | Containment Index 2 |  |  |  |  | | | | |
-| Containment Index 3 |  | `x` | `x` | `x` | | | | |
+| Intensity of measures to go outside |  | `x` | `x` | `x` | | | | |
 | Economic Index 1  |  | | | | | | | |
 | Economic Index 2 |  |  |  |  | | | | | 
 | Health Index 1  |  | | | | | | | |
