@@ -16,16 +16,16 @@ The measures included in this category are oriented to stop the spread of the vi
 
 ### Aplicability
 #### Applicability Index 1 (Stay at Home)
-This index measures applicability of staying at home policies. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
+This index measures applicability of staying at home policies. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
 To see the policies that compose the index, clich here. (LINK)
 #### Applicability Index 2 (Leave Home)
-This index measures applicability of policies that regulate out of home activities, such as buying groceries or physicall  activity. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
+This index measures applicability of policies that regulate out of home activities, such as buying groceries or physicall  activity. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
 To see the policies that compose the index, clich here. (LINK)
 ### Intensity
 #### Mobility Restrictions
-Captures how strict are the restrictions to go out by the total of restricted hours in a week. Being 0 when there is no restriction to go out and 100 that people are not allowed to go out any hour of any day in the week.
+Captures how strict are the restrictions to leave home. The index is initially presented as the relation of hours resricted to leave home to do certain activities and the totalnumber of hours in a week (168). For instance, if there are no restrictions in a municipality in a week, the value would be 0, and if there is total restricion (no one can leave home for  the  entire week) the index would be 1. It is then normalized by multipliying the index by 100.
 
 ### Descriptive Stats
 Index name | _N_ | Calculation | Max Possible Value (100 if normalized) | Min Value (Normalized) |  Max Value (Normalized) | Mean (Normalized) |  
@@ -38,11 +38,11 @@ Index name | _N_ | Calculation | Max Possible Value (100 if normalized) | Min Va
 These indices are for evaluating the number of economic measures in order to face the consequences of the pandemic. Some are oriented towards the citizens and some are oriented in budget movements in order to strengthen the Government response.
 ### Applicability
 #### Economic Support
-XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
+XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
 To see the policies that compose the index, clich here. (LINK) 
 #### Budget Adjustment
-XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
+XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
 To see the policies that compose the index, clich here. (LINK)
 
@@ -58,11 +58,11 @@ Index name | _N_ | Calculation | Max Possible Value (100 if normalized) | Min Va
 
 ### Applicability
 #### Self Care
-XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
+XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
 To see the policies that compose the index, clich here. (LINK)
 #### Health System Strenghtening
-XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
+XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
 To see the policies that compose the index, clich here. (LINK)
 
