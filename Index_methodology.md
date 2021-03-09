@@ -40,7 +40,7 @@ These indices are for evaluating the number of economic measures in order to fac
 #### Economic Support
 XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
 
-To see the policies that compose the index, clich here. (LINK)
+To see the policies that compose the index, clich here. (LINK) 
 #### Budget Adjustment
 XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
 
