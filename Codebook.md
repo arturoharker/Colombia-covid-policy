@@ -6,9 +6,9 @@
 
 This codebooks shows the process in which indices are built in four main types of measures:
 
-- [C - containment and closure policies](#containment-policies)
-- [E - economic policies](#economic-policies)
-- [H - health system policies](#health-policies)
+- [C - Containment Policies](#containment-policies)
+- [E - Economic Policies](#economic-policies)
+- [H - Health Policies](#health-policies)
 
 ---
 ### Containment Policies
