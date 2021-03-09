@@ -11,7 +11,7 @@ This codebooks shows the process in which indices are built in four main types o
 - [H - health system policies](#health-system-policies)
 
 ---
-### Containment and closure policies
+### Containment Policies
 
 | ID | Name | Description | Measurement | Coding |
 | -- | --- | --- | --- | --- |
@@ -26,7 +26,7 @@ This codebooks shows the process in which indices are built in four main types o
 |C9|`Physicall Activity` |Regulations to allow outside physicall activity| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
 
 
-###Index Construction
+### Index Construction
 
  Index name | _k_ | C1 | C2 | C3 |  C4 | C5 | C6 | C7 | C8 | C9 | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
@@ -35,7 +35,7 @@ This codebooks shows the process in which indices are built in four main types o
 | Mobility Restrictions |  5 | |  |  |`x` | |`x` |`x` |`x` | `x`| 
 
 
-### Economic policies
+### Economic ?olicies
 
 | ID | Name | Description | Measurement | Coding |
 | --- | --- | --- | --- | --- |
@@ -47,14 +47,14 @@ This codebooks shows the process in which indices are built in four main types o
 |E6|`Calamity State Declaration` |Legal declaration of Calamity State| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
 |E7|`Health Emergency Declaration` |Legal declaration of Health Emergency State|Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
 
-###Index Construction
+### Index Construction
 
  Index name | _k_ | E1 |E2 | E3 | E4 | E5 | E6 | E7 | 
  | --- | --- | --- | --- | --- |---| --- | --- | --- | 
 | Economic Support |  4 | `x` | `x` | `x` | `x` | | | |
 | Budget Adjustment |  3 | |  |  | |  `x` |  `x` |  `x` | 
 
-### Health system policies
+### Health Policies
 
 | ID | Name | Description | Measurement | Coding |
 | --- | --- | --- | --- | --- |
@@ -64,7 +64,7 @@ This codebooks shows the process in which indices are built in four main types o
 |H4|`Hospital Capacity Increase`|Acquisition of hospitalary elements, such as beds or respirators| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
 |H5|`State of Alert`|Legal declaration of State of Alert| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
 
-###Index Construction
+### Index Construction
 
  Index name | _k_ | H1 |H2 | H3 | H4 | H5|
  | --- | --- | --- | --- | --- |---| ---| 
