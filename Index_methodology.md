@@ -12,7 +12,7 @@ Applicability indices are constructed by marking the existence of certain measur
 Since they are measured in binary code, applicability indices can only present the existence of a policy, but not the way it is being applied. Intensity indices are focused in capturing the level of application of those indices. The calculation of each varies depending on what is beeing measure. Every index is then normalized by dividing for the maximum possible value and multiplied by 100 to have continuous 0 to 100 indices. 
 
 ## Containment Indices
-The measures included in this category are oriented to stop the spread of the virus. In general, this are oriented to make people stay at home and organized outside activities, such as grocery shopping. The goal of these measures is to breake the chain of contagion and reduce the number of new cases every week.
+The policies included in this category are oriented to stop the spread of the virus. In general, this are oriented to make people stay at home and organized outside activities, such as grocery shopping. The goal of these measures is to breake the chain of contagion and reduce the number of new cases every week.
 
 ### Aplicability
 #### Applicability Index 1 (Stay at Home)
@@ -35,14 +35,14 @@ Index name | _N_ | Calculation | Max Possible Value (100 if normalized) | Min Va
 | Mobility Restrictions |  5 | <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{WeeklyRestricted&space;Hours}{WeeklyTotalHours&space;(168)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{WeeklyRestricted&space;Hours}{WeeklyTotalHours&space;(168)}" title="\frac{WeeklyRestricted Hours}{WeeklyTotalHours (168)}" /></a> | 1 |  0 | 93.452 | 40.874 | 
 
 ## Economic Indices
-These indices are for evaluating the number of economic measures in order to face the consequences of the pandemic. Some are oriented towards the citizens and some are oriented in budget movements in order to strengthen the Government response.
+The policies included in this category are the ones with the scope of facing the economic consequences of the pandemic. Some are oriented towards the citizens, in order to give them some economic relief, and some are oriented towards the administration, in order to strengthen the Government response to the economic crisis.
 ### Applicability
 #### Economic Support
-XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
+This index counts the policies taken to give economic relief to the people, mostly monetary and in kind transfers. It is important because having money to substain their family may incentivate people to stay at home.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
 To see the policies that compose the index, clich here. (LINK) 
 #### Budget Adjustment
-XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
+This index counts the policies taken to adjust budget inside the administration. It focuses mostly in transfers to the healh sector in order to strenghten the response. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
 To see the policies that compose the index, clich here. (LINK)
 
@@ -55,14 +55,15 @@ Index name | _N_ | Calculation | Max Possible Value (100 if normalized) | Min Va
 
 
 ## Health Indices
+The policies included in this category are the ones that aim to control the spread of the virus and the mortality without restricting movement. Then are divided in two groups: one of them groups the policies oriented to promotte self care and the other one groups the policies aiming to strenghten the system in order to reduce mortality.
 
 ### Applicability
 #### Self Care
-XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
+This index counts the policies that promote self care, such as mask enforcement, social distancing and others. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
 To see the policies that compose the index, clich here. (LINK)
 #### Health System Strenghtening
-XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
+This index counts the policies aiming to improve health system, mostly with the acquisition of equimpent to treat COVID-19 patients. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
 To see the policies that compose the index, clich here. (LINK)
 
