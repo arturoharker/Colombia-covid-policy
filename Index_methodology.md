@@ -12,49 +12,64 @@ Applicability indices are constructed by marking the existence of certain measur
 Since they are measured in binary code, applicability indices can only present the existence of a policy, but not the way it is being applied. Intensity indices are focused in capturing the level of application of those indices. The calculation of each varies depending on what is beeing measure. Every index is then normalized by dividing for the maximum possible value and multiplied by 100 to have continuous 0 to 100 indices. 
 
 ## Containment Indices
-The measures included in this category are oriented to stop the spread of the virus. In general, this are orientadasaefnsd to make people stay at home and organized outside activities, such as grocery shopping. The goal of these measures is to breake the chain of contagion and reduce the number of new cases every week.
+The measures included in this category are oriented to stop the spread of the virus. In general, this are oriented to make people stay at home and organized outside activities, such as grocery shopping. The goal of these measures is to breake the chain of contagion and reduce the number of new cases every week.
 
 ### Aplicability
-#### Applicability Index 1 
-This index measures applicability of staying at home measures. The included measures in this index are: afora control, agglomerations control, isolation (mandatory or optional), social distancing, curfew, mobility restrictions and prohibition for commerce of alcoholic beverages.
-#### Applicability Index 2
-This index measures the applicability of measures that regulate the schedules to go out. The included measures in this index are: ID restrictions, Gender restriction,  and schedules to exercise outside.
+#### Applicability Index 1 (Stay at Home)
+This index measures applicability of staying at home policies. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
+
+To see the policies that compose the index, clich here. (LINK)
+#### Applicability Index 2 (Leave Home)
+This index measures applicability of policies that regulate out of home activities, such as buying groceries or physicall  activity. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
+
+To see the policies that compose the index, clich here. (LINK)
 ### Intensity
 #### Mobility Restrictions
 Captures how strict are the restrictions to go out by the total of restricted hours in a week. Being 0 when there is no restriction to go out and 100 that people are not allowed to go out any hour of any day in the week.
+
 ### Descriptive Stats
-Index name | _k_ | Calculation | Max Possible Value (100 if normalized) | Min Value (Normalized) |  Max Value (Normalized) | Mean (Normalized) |  
+Index name | _N_ | Calculation | Max Possible Value (100 if normalized) | Min Value (Normalized) |  Max Value (Normalized) | Mean (Normalized) |  
 | --- | --- | --- | --- | --- | --- | --- |  
-| Applicability Index 1 |  6 |  |  6 | 0 | 100  |54.848|    
-| Applicability Index 2 |  4 |  | 6 | 0 | 100| 35.210 | 
-| Mobility Restrictions |  5 | | 168 |  0 | 93.452 | 40.874 | 
+| Applicability Index 1 |  6 |<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{N}C_i/N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{N}C_i/N" title="\sum_{i=1}^{N}C_i/N" /></a> |  6 | 0 | 100  |54.848|    
+| Applicability Index 2 |  4 | <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{N}C_i/N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{N}C_i/N" title="\sum_{i=1}^{N}C_i/N" /></a> | 6 | 0 | 100| 35.210 | 
+| Mobility Restrictions |  5 | <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{WeeklyRestricted&space;Hours}{WeeklyTotalHours&space;(168)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{WeeklyRestricted&space;Hours}{WeeklyTotalHours&space;(168)}" title="\frac{WeeklyRestricted Hours}{WeeklyTotalHours (168)}" /></a> | 1 |  0 | 93.452 | 40.874 | 
 
 ## Economic Indices
 These indices are for evaluating the number of economic measures in order to face the consequences of the pandemic. Some are oriented towards the citizens and some are oriented in budget movements in order to strengthen the Government response.
 ### Applicability
 #### Economic Support
-This index calculates the amount of economic measures that the municipality took in benefit of the citizens. It is composed of monetary and non-monetary transfers, tax discounts and guarantee of public services.
+XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
+
+To see the policies that compose the index, clich here. (LINK)
 #### Budget Adjustment
-This index calculates the economic measures taken inside the public administration to face the consequences of the pandemic. It is composed of two items: budget transfers inside the municipality and opening and closure of social services.
+XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
+
+To see the policies that compose the index, clich here. (LINK)
+
+
 ### Descriptive Stats
-Index name | _k_ | Calculation | Max Possible Value (100 if normalized) | Min Value (Normalized) |  Max Value (Normalized) | Mean (Normalized) |  
+Index name | _N_ | Calculation | Max Possible Value (100 if normalized) | Min Value (Normalized) |  Max Value (Normalized) | Mean (Normalized) |  
 | --- | --- | --- | --- | --- | --- | --- |  
-| Economic Support|  4 |  |  4 | 0 | 100  |25.022 |   
-| Budget Adjustment | 3 |  | 3 | 0 | 100| 33.395 | 
+| Economic Support|  4 | <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{N}E_i/N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{N}E_i/N" title="\sum_{i=1}^{N}E_i/N" /></a> |  4 | 0 | 100  |25.022 |   
+| Budget Adjustment | 3 | <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{N}E_i/N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{N}E_i/N" title="\sum_{i=1}^{N}E_i/N" /></a>| 3 | 0 | 100| 33.395 | 
 
 
 ## Health Indices
+
 ### Applicability
 #### Self Care
-This index calculates the health measures taken in order to promote self care. Thus this index accounts policies focused on the citizens and their own responsibility for sustaining their health. This measure contains the mandatory use of masks, testing for the virus and the first half of the biosecurity measures imposed on commerce*.
+XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
+
+To see the policies that compose the index, clich here. (LINK)
 #### Health System Strenghtening
-This index calculates the health measures taken by the municipality in order to preserve the health of the citizens. They can be called the imposed care measures. The index is constructed using the increase of hospitals capacity (measured in Intensive Care beds), the guarantee of social services such as a water, the asistences and capacitation of medical personel and the second half of the biosecurity measures imposed on commerce*.
+XXX.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.}
+
+To see the policies that compose the index, clich here. (LINK)
 
 
-`*The biosecurity measures imposed on commerce are divided in two parts. The first part is mandatory social distancing, disinfection of customers on the entrance and the mandatory use of elements of personal care (masks, gloves, etc.). The second part are: capacity control on the entrance and symptoms control. `
 ### Descriptive Stats
-Index name | _k_ | Calculation | Max Possible Value (100 if normalized) | Min Value (Normalized) |  Max Value (Normalized) | Mean (Normalized) |  
+Index name | _N_ | Calculation | Max Possible Value (100 if normalized) | Min Value (Normalized) |  Max Value (Normalized) | Mean (Normalized) |  
 | --- | --- | --- | --- | --- | --- | --- |  
-| Self Care|  3 |  | 3 | 0 | 75  |29.274 |   
-| Health System Strenghtening | 3 |  | 3 | 0 | 50| 7.916 | 
+| Self Care|  3 | <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{N}S_i/N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{N}S_i/N" title="\sum_{i=1}^{N}S_i/N" /></a> | 3 | 0 | 75  |29.274 |   
+| Health System Strenghtening | 3 | <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{N}S_i/N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{N}S_i/N" title="\sum_{i=1}^{N}S_i/N" /></a>| 3 | 0 | 50| 7.916 | 
 
