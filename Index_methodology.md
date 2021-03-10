@@ -18,14 +18,16 @@ The policies included in this category are oriented to stop the spread of the vi
 #### Applicability Index 1 (Stay at Home)
 This index measures applicability of staying at home policies. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
-To see the policies that compose the index, click here. (LINK)
+To see the policies that compose the index, click [here](https://github.com/dccontreras/Colombia-covid-policy/blob/main/Codebook.md).
 #### Applicability Index 2 (Leave Home)
 This index measures applicability of policies that regulate out of home activities, such as buying groceries or physicall  activity. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
-To see the policies that compose the index, click here. (LINK)
+To see the policies that compose the index, click [here](https://github.com/dccontreras/Colombia-covid-policy/blob/main/Codebook.md).
 ### Intensity
 #### Mobility Restrictions
 Captures how strict are the restrictions to leave home. The index is initially presented as the relation of hours resricted to leave home to do certain activities and the totalnumber of hours in a week (168). For instance, if there are no restrictions in a municipality in a week, the value would be 0, and if there is total restricion (no one can leave home for  the  entire week) the index would be 1. It is then normalized by multipliying the index by 100.
+
+To see the policies that compose the index, click [here](https://github.com/dccontreras/Colombia-covid-policy/blob/main/Codebook.md).
 
 ### Descriptive Stats
 Index name | _N_ | Calculation | Max Possible Value (100 if normalized) | Min Value (Normalized) |  Max Value (Normalized) | Mean (Normalized) |  
@@ -40,11 +42,11 @@ The policies included in this category are the ones with the scope of facing the
 #### Economic Support
 This index counts the policies taken to give economic relief to the people, mostly monetary and in kind transfers. It is important because having money to substain their family may incentivate people to stay at home.  As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
-To see the policies that compose the index, click here. (LINK) 
+To see the policies that compose the index, click [here](https://github.com/dccontreras/Colombia-covid-policy/blob/main/Codebook.md).
 #### Budget Adjustment
 This index counts the policies taken to adjust budget inside the administration. It focuses mostly in transfers to the healh sector in order to strenghten the response. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
-To see the policies that compose the index, click here. (LINK)
+To see the policies that compose the index, click [here](https://github.com/dccontreras/Colombia-covid-policy/blob/main/Codebook.md).
 
 
 ### Descriptive Stats
@@ -61,11 +63,11 @@ The policies included in this category are the ones that aim to control the spre
 #### Self Care
 This index counts the policies that promote self care, such as mask enforcement, social distancing and others. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
-To see the policies that compose the index, click here. (LINK)
+To see the policies that compose the index, click [here](https://github.com/dccontreras/Colombia-covid-policy/blob/main/Codebook.md).
 #### Health System Strenghtening
 This index counts the policies aiming to improve health system, mostly with the acquisition of equimpent to treat COVID-19 patients. As it is an applicability measure, one unit is added for each of the policies that compose it if said policy is implemented on a week on a municipality. The score is then rescaled to 0-100. Being 0 no policies adopted and 100 al of the policies adopted.
 
-To see the policies that compose the index, click here. (LINK)
+To see the policies that compose the index, click [here](https://github.com/dccontreras/Colombia-covid-policy/blob/main/Codebook.md).
 
 
 ### Descriptive Stats
