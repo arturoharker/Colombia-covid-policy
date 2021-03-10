@@ -35,7 +35,7 @@ This codebooks shows the process in which indices are built in four main types o
 | Applicability Index 2 |  4 |  |  |  | `x`| |`x` | `x`| |`x` | 
 | Mobility Restrictions |  5 | |  |  |`x` | |`x` |`x` |`x` | `x`| 
 
-========
+
 ### Economic policies
 
 | ID | Name | Description | Measurement | Coding |
@@ -56,7 +56,7 @@ This codebooks shows the process in which indices are built in four main types o
 | Budget Adjustment |  3 | |  |  | |  `x` |  `x` |  `x` | 
 
 
-=======
+
 
 ### Health system policies
 
