@@ -1,8 +1,8 @@
 # Codebook of Colombian subnational policies
 ---
-*Index Methodology version 1.0*
+*Index Methodology*
 
-*26 November 2020*
+*4 March 2021*
 
 This codebooks shows the process in which indices are built in four main types of measures:
 
@@ -14,26 +14,60 @@ This codebooks shows the process in which indices are built in four main types o
 ### Containment and closure policies
 
 | ID | Name | Description | Measurement | Coding |
-| --- | --- | --- | --- | --- |
-| C1 | `C1_StayAtHome` | The application of measures that prevent citizenz to leave home. Measures are: aforo, events, Curfew, quarantine, distance, ley seca, restrictions to mobility | Continuous | <br/>0 -  0-	no measure applied. <br/>7 -	All the seven measures were applied |
-| C2 | `C2_Leave home` | Record the allowance to leave home | Ordinal scale | 0 - no measures <br/>1 -No quarantine with restrictions to purchase goods or scheduled to do exercise <br/>2 - Quarantine with restrictions to purchase goods and schedule to do exercise  <br/>3 -Quarantine with restrictions to purchase goods and no allowance to do exercise |
-| C3 | `C1_Quarantine` | How severe is the recorded quarantine | Ordinal scale | 0 - no measures <br/>1 -	Covid patients and people with sympthoms <br/>2 -Demographyc scoped quarantine  <br/>3 -Everybody is under quarantine |
-| C4 | `C4_Circulation` | How strict are the circulation restrictions | Ordinal scale | 0 - no measures <br/>1 -	Only people with Symptoms <br/>2 - 	Public transport and/or tourist. Motorcycle restriction  <br/>3 -	Circulation restriction to 1 or more age groups <br/>4 -	Circulation restrictions are for everybody |
-| C5 | `C5_PurchaseHours` | Hours restricted weekly to purchase goods | Continuous | 0 hours to 168 hours which is the total hours in a 7 days week |
-| C6 | `C6_CurfewRestriction` | Hours restricted weekly by the Curfew | Continuous | 0 hours to 168 hours which is the total hours in a 7 days week |
-| C7 | `C7_MobilityRestriction` | Hours restricted daily by the mobility restrictions | Continuous | 0 hours to 24 hours of the day |
+| -- | --- | --- | --- | --- |
+|C1|`Mobility Restrictions` |Restrictions to move inside or outside the municipality| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|C2|`Capacity Control` |Restriction of the number of people allowed in a store| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|C3|`Social Gatherings` |Restriction of the number of people allowed in an event| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|C4|`Isolation` |Mandatory or preventive self-Isolation| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|C5| `Prohibition` |Restrictions to buy or consume alcohol in public places| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|C6|`ID Restrictions` |Restrictions to go outside based on the last number of the ID card| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|C7|`Gender Restrictions` |Restrictions to go outside based on Gender| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|C8|`Curfew` |Implementation of Curfew| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|C9|`Physicall Activity` |Regulations to allow outside physicall activity| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+
+
+###Index Construction
+
+ Index name | _k_ | C1 | C2 | C3 |  C4 | C5 | C6 | C7 | C8 | C9 | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| Aplicability Index 1 |  8 | `x` |  `x` |  `x` |  `x` |`x`| | |  `x`|   |  
+| Aplicability Index 2 |  4 |  |  |  | `x`| |`x` | `x`| |`x` | 
+| Mobility Restrictions |  7 | |  |  |`x` | |`x` |`x` |`x` | `x`| 
+
+
 ### Economic policies
 
 | ID | Name | Description | Measurement | Coding |
 | --- | --- | --- | --- | --- |
-|E1|`E1_TransfersInKind` |Number of beneficiaries of the transfers in kind|Ratio|Beneficiaries over population total|
-|E2|`E2_MonetaryTransfers` |Number of beneficiaries of monetary transfers|Ratio|Beneficiaries over population total|
-|E3|`E3_FocalizedDiscount` |Measures if the tax discount is targeted or general|Binary|</br>0- For the general population </br>1- Targeted to certain people|
-|E4|`E4_BudgetTransferedPC` |Budget transfers|COP per person|Amount of budget modification normalized by population of each municipality|
-|E5|`E5_AmountTransferedPC` |Money transferred per person|COP per person|Amount of money transferred normalized by population of each municipality|
+|E1|`Transfers in Kind` | Transfers of goods| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|E2|`Monetary Transfers` |Transfers of money| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|E3|`Tax Discount` |Discounts or period extension to pay a tax| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|E4|`Guarantee of Public Services` |Reinstalation and guarantee of services, even if unpaid|Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|E5|`Budget Transfers` |Budget adjustments inside the administration| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|E6|`Calamity State Declaration` |Legal declaration of Calamity State| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|E7|`Health Emergency Declaration` |Legal declaration of Health Emergency State|Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+
+###Index Construction
+
+ Index name | _k_ | E1 |E2 | E3 | E4 | E5 | E6 | E7 | 
+ | --- | --- | --- | --- | --- |---| --- | --- | --- | 
+| Economic Support |  4 | `x` | `x` | `x` | `x` | | | |
+| Budget Adjustment |  3 | |  |  | |  `x` |  `x` |  `x` | 
+
 ### Health system policies
 
 | ID | Name | Description | Measurement | Coding |
 | --- | --- | --- | --- | --- |
-|H1|`H1_IntensityofTesting`|Number of tests given by the municipality|Ratio|Number of tests over population|
-|H2|`H2_HospitalCapacity`|Increase of hospital capacity, measured in hospital beds|Ratio|Number of new beds over number of pre-acquired beds|
+|H1|`Mask Use`|Mandatory Mask Use| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|H2|`Biosafety Measures`|Implementation of safety measures in commerce establishments| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|H3|``Social Distancing` |Enforcement of social distancing in public places| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|H4|`Hospital Capacity Increase`|Acquisition of hospitalary elements, such as beds or respirators| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+|H5|`State of Alert`|Legal declaration of State of Alert| Binary | <br/>0 -  0-	No measure applied. <br/>1 -	Measure Applied|
+
+###Index Construction
+
+ Index name | _k_ | H1 |H2 | H3 | H4 | H5|
+ | --- | --- | --- | --- | --- |---| ---| 
+| Self Care|  3 | `x` | `x` |  `x`  |  | |
+| Health System Strenghtening |  3 |  | | `x` |  `x` |  `x` | 
+
