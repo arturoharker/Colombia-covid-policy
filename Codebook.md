@@ -16,24 +16,28 @@ This codebooks shows the process in which indices are built in four main types o
 | ID | Name | Description | Measurement | Coding |
 | -- | --- | --- | --- | --- |
 |C1|`Mobility Restrictions` |Restrictions to move inside or outside the municipality| Binary | <br/>0 -	Measure NOT applied <br/>1 -	Measure applied|
+|C1_1|`Mobility Restrictions` |Restrictions to move inside or outside the municipality| Binary | <br/>0 -	Measure NOT applied <br/>1 -	Measure applied|
 |C2|`Capacity Control` |Restriction of the number of people allowed in a store | Binary |  <br/>0 -	Measure NOT applied <br/>1 -	Measure applied|
 |C3|`Gathering restriction` |limits the size of professional, commercial, or social events and gatherings. | Binary |  <br/>0 -	Measure NOT applied <br/>1 -	Measure applied|
 |C4|`Isolation` |Mandatory or preventive self-Isolation| Binary |  <br/>0 -	Measure NOT applied <br/>1 -	Measure applied|
 |C5| `Prohibition` |Restrictions to buy or consume alcohol in public places| Binary |  <br/>0 -	Measure NOT applied <br/>1 -	Measure applied|
 |C6|`ID Restriction` | Stay-at-home orders or limits access to essential commercial venues, depending on the last digits of the ID. | Binary |  <br/>0 -	Measure NOT applied <br/>1 -	Measure applied|
 |C7|`Gender Restriction` | Stay-at-home orders or limits access to essential commercial venues, depending on gender. | Binary | <br/>0 -	Measure NOT applied <br/>1 -	Measure applied|
+|C7_1|`Hours restricted ID or gender restriction`|Hours per week a citizen is allowed to access essential commercial venues depending on gender or ID last digit.|Continous|0 to 168|
 |C8|`Curfew` | General stay-at-home mandate. | Binary |  <br/>0 -	Measure NOT applied <br/>1 -	Measure applied|
+|C8_1|`Hours restricted by curfew`|Hours per week with the general stay-at-home mandate enforced|Continous|0 to 168|
 |C9|`Physicall Activity` |Regulations to allow outside physicall activity| Binary |  <br/>0 -	Measure NOT applied <br/>1 -	Measure applied|
-
+|C10|`Lockdown` | General lockdown mandate| Binary |  <br/>0 -	Measure NOT applied <br/>1 -	Measure applied|
+|C10_1|`Lockdown type` | There are two types of lockdown in Colombia a strict precautionary and a softer selective lockdown| Categorical |  <br/>0 -	Measure NOT applied <br/>1 -Selective lockdown <br/>2 -Precautionary lockdown|
 
 
 ### Index Construction
 
- Index name | _k_ | C1 | C2 | C3 |  C4 | C5 | C6 | C7 | C8 | C9 | 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
-| Applicability Index 1 |  6 | `x` |  `x` |  `x` |  `x` |`x`| | |  `x`|   |  
-| Applicability Index 2 |  4 |  |  |  | `x`| |`x` | `x`| |`x` | 
-| Mobility Restrictions |  5 | |  |  |`x` | |`x` |`x` |`x` | `x`| 
+| Index name            | _k_ | C1  |C1_1 | C2  | C3  |  C4 | C5  | C6  | C7  | C7_1 | C8  | C8_1 |  C9 | 
+| ---                   | --- | --- | --- | --- | --- | --- | --- | --- | ---  | --- | --- |---   | --- | 
+| Applicability Index 1 |  6  | `x` |     | `x` | `x` | `x` | `x` |     |     |      |  `x`|      |     |  
+| Applicability Index 2 |  4  |     |     |     |     | `x` |     |`x`  | `x` |      |     |      | `x` | 
+| Mobility Restrictions |  5  |     |     |     |     | `x` |     |     |     |   `x`|     | `x`  |     | 
 
 
 ### Economic policies
